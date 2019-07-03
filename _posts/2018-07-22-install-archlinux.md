@@ -283,6 +283,7 @@ Linux的声音驱动程序是 `ALSA`, 可以安装 `alsa-utils`, 然后用 `alsa
 
 `alsamixer` 有个简单的界面, 里面标上 `MM` 的都处于静音状态, 如图:
 
+![img](/pics/20180723_183524.jpg)
 
 # 小结
 

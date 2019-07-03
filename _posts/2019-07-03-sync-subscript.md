@@ -19,11 +19,11 @@ categories: algorithm
 以让时间序列在这个点附近的小的范围内衰减. 就像下图一样, 两个时间序列都
 变成一个个三角脉冲.
 
-![/pics/srt-series.png]
+![img](/pics/srt-series.jpg)
 
 写了个Python小程序算了一下互相关函数, 效果非常理想.
 
-![/pics/srt-correlation.png]
+![img](/pics/srt-correlation.png)
 
 后来在github上看到已经有人写了一个
 [subsync](https://github.com/smacke/subsync), 思路完全相同, 不过实现上
