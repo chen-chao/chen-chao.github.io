@@ -17,7 +17,7 @@ categories: misc
 第一项很好处理, 把各个标点映射到各自的字母序列就好了, 默认的标点符号不
 用改, 其他不常用的标点可以直接使用半角符号.
 
-[标点设置](./japanese-punct.png)
+[标点设置](/pics/japanese-punct.png)
 
 不巧的是, 日文比中文多一个将假名转换成汉字的过程. Google 日文输入法中将从输入到上屏的输入过程分为
 ""変換前入力中、変換中、サジェスト選択中"几个过程. 不同过程中可以设置不同的键位操作.
@@ -29,6 +29,6 @@ tab 来转换汉字真是很累, 所以还是恢复了默认的将空格作为�
 作为独立的键设置, 最后只好折中设成最近的"Enter". 不好的一点是, 切到英
 文之后并不会上屏, 如果想输入空格还需要按 space + enter + space, 所以还是有点麻烦.
 
-[输入过程键位设定](./japanese-input-process.png)
+[输入过程键位设定](/pics/japanese-input-process.png)
 
 设置过程中还学到了好几个单词. 比如 <ruby> 入力<rp>(</rp><rt> にゅうりょく </rt><rp>)</rp></ruby>, <ruby> 変換<rp>(</rp><rt> へんかん </rt><rp>)</rp></ruby>, <ruby> 選択<rp>(</rp><rt> せんたく </rt><rp>)</rp></ruby> , サジェスト(suggest), シフトキー(shift key).
