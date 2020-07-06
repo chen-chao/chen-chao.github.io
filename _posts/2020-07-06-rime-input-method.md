@@ -4,16 +4,15 @@ title: 你好, RIME
 categories: linux
 ---
 
-因为在 Arch Linux 里使用的搜狗拼音在开机使用的时候候选框总是无法完全显
-示, 一直没有好的办法. 根据[这里](https://bbs.archlinuxcn.org/viewtopic.php?pid=43081#p43081)的建议
-尝试了优麒麟版搜狗,确实可以解决问题. 无奈功能有点简陋, 所以还是不太合
-适.
+因为在 Arch Linux 里使用的搜狗拼音候选框总是无法完全显示, 一直没有好的办法.
+根据[这里](https://bbs.archlinuxcn.org/viewtopic.php?pid=43081#p43081)的
+建议, 尝试了优麒麟版搜狗. 问题确实可以解决, 无奈功能有点简陋, 所以还是不太合适.
 
-搜索 Linux 里常用的中文输入法, 发现了 RIME (也是递归梗), 并且被
+搜索 Linux 里常用的中文输入法, 发现了 RIME (名字也是递归梗), 而且被
 [Arch wiki](https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E4%B8%AD%E6%96%87)
 称为著名输入法 (英文版倒是没加著名, 不过作为中文输入法我更相信中文版
 wiki). 不过 RIME 居然在 Linux, Windows 和 MacOS 里分别有不同的名字, 分
-别偶叫小狼毫, 鼠须管, 还有什么东风破的, 实在让人心生疑虑. 不过好在
+别叫小狼毫, 鼠须管什么的, 实在让人心生疑虑. 不过好在
 Arch 已经有对应的包, 所以倒可以先试试.
 
 ## 安装
@@ -28,14 +27,16 @@ RIME 的[文档](https://github.com/rime/home/wiki/CustomizationGuide)有
 设置 (多在 `/usr/share/rime-data`, 一般无需修改) 和用户设置 (fcitx
 的话一般在 `$HOME/.config/fcitx/rime`). 用户设置又分为两种,
 针对所有 RIME 输入法 (schema) 的放在 `default.custom.yaml`, 针对特定输入法的放在
-`<schema>.custom.yaml`, 将 `<schema>` 换成相应输入法的 schema.
+`<schema>.custom.yaml`, 将 `<schema>` 换成相应输入法的 schema (我这里是 `double_pinyin_flypy`).
 
-RIME 的配置其实就是给已定义好的设置打补丁 (patch), 一个文件只能有一个关键词 patch, 其他的项都在这个 patch 下面. 比如改变默认候选词数量的设定就是
+RIME 的配置其实就是给已定义好的设置打补丁 (patch). 一个文件只能有一个
+关键词 patch, 其他的项都在这个 patch 下面. 比如改变默认候选词数量的设
+定就是
 
 ```yaml
 # default.custom.yaml
 patch:
-	"menu/page_size": 7
+  "menu/page_size": 7
 ```
 
 指的是, 将默认 "menu/page_size" 的值改为 7. 相关的设置选项可以在
@@ -65,7 +66,7 @@ switches:
 ```yaml
 # double_pinyin_custom.yaml
 patch:
-	"switches/@2/reset": 1
+  "switches/@2/reset": 1
 ```
 
 2. 中文输入也使用西文标点.
