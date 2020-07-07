@@ -12,8 +12,10 @@ golang 开发中在处理一个请求或一个任务时, 通常会开一个或�
 
 这里说一下 context 使用中一些需要注意的地方.
 
-1. 创建 context 的函数结束并调用了 cancel 的话, 所有接收了这个context
-   的 goroutine 都会收到 cancel 通知.
+#### 管理 context 生命周期
+
+创建 context 的函数结束并调用了 cancel 的话, 所有接收了这个 context
+的 goroutine 都会收到 cancel 通知.
 
 比如
 
@@ -31,7 +33,7 @@ func foo() {
 步处理的话, 可以由 `dosomething` 独立管理自己的 context.
 
 
-2. 处理 context timeout 的时候, 需要注意时间粒度.
+#### context timeout 的时间粒度
 
 如
 
@@ -54,7 +56,7 @@ context 已结束, 也要等到 `dostep` 完成后下次再询问 `ctx.Done`.
 如果 `dostep` 会耗时很久, 那么 `context.WithTimeout` 有可能不会取得很好的效果.
 
 
-3. 是否处理 context 通知由 goroutine 自己决定.
+#### 是否处理 context 通知由 goroutine 自己决定
 
 接收 context 通知的 goroutine 完全可以忽略 context 通知. 如果是协作开
 发的话, 最好做个约定.

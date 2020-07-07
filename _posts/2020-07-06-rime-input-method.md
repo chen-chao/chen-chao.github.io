@@ -44,7 +44,7 @@ patch:
 
 我用的几个设置是:
 
-1. 使用简体中文.
+#### 使用简体中文
 
 默认的 RIME 输入法都是繁体. 查看我使用的 `double_pinyin_flypy.schema.yaml` 里面, 有 simplification switch:
 
@@ -69,7 +69,7 @@ patch:
   "switches/@2/reset": 1
 ```
 
-2. 中文输入也使用西文标点.
+#### 中文输入也使用西文标点
 
 文档里是指定了一份自定义的标点来实现. 不过 RIME 会自带一个 `punctuation.yaml` 的文件, 所以我们可以偷个懒, 直接把输入法的标点指定为 ascii style.
 
@@ -81,7 +81,7 @@ patch:
 ```
 
 
-3. 自定义短语.
+#### 自定义短语
 
 仿照 `luna_pinyin.schema.yaml` 里的写法, 在 `double_pinyin_custom.yaml` 里面加上:
 
