@@ -18,9 +18,9 @@ categories: life
 厅的时候, 只有寥寥数人. 整个博物馆公园应该是参照挖掘遗址建设, 第一展厅
 是综合展馆, 外观是个土包. 第二展厅是青铜文物展馆, 外观是螺旋状的观测台.
 
-![博物馆门口提醒戴口罩的宣传画](../pics/sanxkingdui/戴口罩的青铜头像.jpg)
+![博物馆门口提醒戴口罩的宣传画](/pics/sanxkingdui/戴口罩的青铜头像.jpg)
 
-![第二展厅](../pics/sanxkingdui/第二展厅.jpg)
+![第二展厅](/pics/sanxkingdui/第二展厅.jpg)
 
 
 展厅里除了展示文物的灯光, 幽暗深邃. 所有人都在默默看着远古的遗存.
@@ -31,8 +31,8 @@ categories: life
 提起三星堆, 大立人肯定是瞩目的焦点. 整个大立人带上基座,
 差不多两人高. 大立人位于展馆的中心, 头戴冠冕, 身穿袍服, 平静的注视着前方.
 
-![大立人正面](../pics/sanxkingdui/大立人1.jpg)
-![大立人背面](../pics/sanxkingdui/大立人2.jpg)
+![大立人正面](/pics/sanxkingdui/大立人1.jpg)
+![大立人背面](/pics/sanxkingdui/大立人2.jpg)
 
 ## 神树
 
@@ -41,15 +41,15 @@ categories: life
 
 想像不出当初的工作者是如何把散落的神树组装起来.
 
-![神树](../pics/sanxkingdui/神树1.jpg)
-![另一个神树](../pics/sanxkingdui/神树2.jpg)
-![第二展厅中的神树仿制品](../pics/sanxkingdui/神树仿制品.jpg)
+![神树](/pics/sanxkingdui/神树1.jpg)
+![另一个神树](/pics/sanxkingdui/神树2.jpg)
+![第二展厅中的神树仿制品](/pics/sanxkingdui/神树仿制品.jpg)
 
 ## 玉圭
 
 第一展厅中呈列了很多玉圭, 蔚为大观. 很多玉圭上都雕刻了精细的花纹. 尤其是这个,
 
-![雕刻花纹的玉璋](../pics/sanxkingdui/玉璋.jpg)
+![雕刻花纹的玉璋](/pics/sanxkingdui/玉璋.jpg)
 
 
 ## 青铜人面
@@ -58,8 +58,8 @@ categories: life
 各样的青铜面具, 人像, 还有小立人. 还有不少奇特的花纹. 人会被大的造像所吸引, 我也不例外.
 这是其中两个巨大的铜像面具.
 
-![巨大的青铜人面](../pics/sanxingdui/青铜人面1.jpg)
-![眼睛凸起的青铜人面](../pics/sanxingdui/青铜人面2.jpg)
+![巨大的青铜人面](/pics/sanxingdui/青铜人面1.jpg)
+![眼睛凸起的青铜人面](/pics/sanxingdui/青铜人面2.jpg)
 
 ## 最后
 

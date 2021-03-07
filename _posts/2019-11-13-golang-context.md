@@ -1,10 +1,10 @@
 ---
 layout: post
-title: golang context 使用注意事项
+title: Golang context 使用注意事项
 categories: golang
 ---
 
-golang 开发中在处理一个请求或一个任务时, 通常会开一个或多个 goroutine
+Golang 开发中在处理一个请求或一个任务时, 通常会开一个或多个 goroutine
 来运行. 如果任务已超时或者请求被取消, 就需要通知运行的 goroutine 及时
 结束. context 就是用来通知同一情境下的运行 goroutine 的标准工具. 用法
 和示例可以参考 [Package context](https://golang.org/pkg/context/)
