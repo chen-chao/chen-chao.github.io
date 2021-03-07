@@ -10,7 +10,7 @@ categories: linux
 
 搜索 Linux 里常用的中文输入法, 发现了 RIME (名字也是递归梗), 而且被
 [Arch wiki](https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E4%B8%AD%E6%96%87)
-称为著名输入法 (英文版倒是没加著名, 不过作为中文输入法我更相信中文版
+称为著名输入法 (英文版倒是没加著名, 但作为中文输入法我更相信中文版
 wiki). 不过 RIME 居然在 Linux, Windows 和 MacOS 里分别有不同的名字, 分
 别叫小狼毫, 鼠须管什么的, 实在让人心生疑虑. 不过好在
 Arch 已经有对应的包, 所以倒可以先试试.
